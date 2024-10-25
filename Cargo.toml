@@ -1,0 +1,10 @@
+[workspace]
+
+members = ["asap-util","asap-mtx","asap-spatial"]
+resolver = "2"
+
+[workspace.dependencies]
+
+asap-util = { path = "asap-util"}
+asap-mtx = { path = "asap-mtx"}
+asap-spatial = { path = "asap-spatial"}
